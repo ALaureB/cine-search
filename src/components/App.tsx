@@ -1,18 +1,15 @@
 import * as React from "react";
 // @ts-ignore
-import * as img from "../assets/start_coding.jpg";
+import * as img from "../assets/movie_night.jpg";
 import "../styles/App.scss";
-import Hello from "./Hello";
+import Search from "./Search";
 
-class App extends React.Component {
+class App extends React.Component<any, any> {
   public render() {
     return (
       <div>
-        <Hello compiler="TypeScript" framework="React" />
-        <p>
-          This react and typescript app is configured with Webpack 4 and Babel. It also features
-          File loader and Scss. You can start coding now !
-        </p>
+        <h1>Cine search</h1>
+        <Search />
         <br/>
         <img src={img} alt="Start coding !" />
       </div>
