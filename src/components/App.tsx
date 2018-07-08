@@ -8,10 +8,8 @@ class App extends React.Component<any, any> {
   public render() {
     return (
       <div>
-        <h1>Cine search</h1>
+        <img src={img} alt="Start coding !" id="img" />
         <Search />
-        <br/>
-        <img src={img} alt="Start coding !" />
       </div>
     );
   }

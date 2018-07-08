@@ -1,11 +1,23 @@
+@import 'Search';
+@import 'SearchResults';
+
 $font-stack:    Helvetica, sans-serif;
 $primary-color:blue;
 
 body {
     text-align: center;
     font: 100% $font-stack;
+
+    h1 {
+        color: $primary-color;
+    }
+
+    #img {
+        width: 400px;
+    }
+
 }
 
-h1 {
-    color: $primary-color;
+.posterImg {
+    vertical-align: -webkit-baseline-middle middle;
 }
