@@ -8,5 +8,6 @@ Movie search app in progress, build with :
 * Webpack4
 * Babel
 
+To launch it :
 * yarn install
 * yarn start
